@@ -18,4 +18,9 @@ class BillingController {
     Flowable<ArrayList<Book>> index(){
         client.findBooks()
     }
+
+    @Get("/cb")
+    Flowable <ArrayList<Book>> getCB() {
+        client.findBooks()
+    }
 }

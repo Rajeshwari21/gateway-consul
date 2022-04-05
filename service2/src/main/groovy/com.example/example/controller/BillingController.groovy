@@ -1,6 +1,6 @@
 package com.example.controller
 
-import com.example.domain.Book
+import com.example.example.domain.Book
 import io.micronaut.http.annotation.Controller
 import io.micronaut.http.annotation.Get
 import io.reactivex.Flowable

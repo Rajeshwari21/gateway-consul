@@ -2,7 +2,7 @@ micronaut:
   application:
     name: service2
   server:
-    port: -1
+    port: 8091
 consul:
   client:
     registration:
